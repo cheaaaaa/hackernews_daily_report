@@ -43,7 +43,7 @@ pip install -r requirements.txt
 ```bash
 export OPENAI_API_KEY="your_api_key_here"
 ```
-
+或者在 `config.py` 中设置
 ## 使用方法
 
 ### 立即运行一次
@@ -86,7 +86,7 @@ python main.py --schedule
 
 ## 自定义配置
 
-如需修改默认配置，可以编辑 `main.py` 文件中的相关参数：
+如需修改默认配置，可以编辑 `main.py` 和 `config.py` 文件中的相关参数：
 
 - 修改定时任务的执行时间
 - 调整抓取的故事数量
